@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+/*
 @layer components {
   .quote-card  { @apply p-6 m-5 bg-gray-400 rounded-2xl; }
   .quote-title { @apply text-2xl text-blue-950; }
   .quote-note  { @apply font-serif italic text-gray-800 mt-2; }
+}
+*/
+
+@layer components {
+  .quote-card  { @apply p-6 m-5 bg-[#F7F7F4] rounded-2xl; }
+  .quote-title { @apply text-2xl text-[#00327D] font-bold; }
+  .quote-note  { @apply font-serif italic text-[#4D70A4] mt-2; }
 }
